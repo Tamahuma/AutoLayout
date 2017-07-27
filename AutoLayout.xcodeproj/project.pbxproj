@@ -17,6 +17,7 @@
 		FAA3D9491F28F91400E54E82 /* 220px-Zombie_haiti_ill_artlibre_jnl.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA3D9481F28F91400E54E82 /* 220px-Zombie_haiti_ill_artlibre_jnl.png */; };
 		FAA3D94B1F291D0F00E54E82 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3D94A1F291D0F00E54E82 /* LocationViewController.swift */; };
 		FAA3D94D1F291D2600E54E82 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3D94C1F291D2600E54E82 /* InventoryViewController.swift */; };
+		FAA3D9501F2A3B2400E54E82 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3D94F1F2A3B2400E54E82 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FAA3D9481F28F91400E54E82 /* 220px-Zombie_haiti_ill_artlibre_jnl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "220px-Zombie_haiti_ill_artlibre_jnl.png"; path = "../../../Downloads/220px-Zombie_haiti_ill_artlibre_jnl.png"; sourceTree = "<group>"; };
 		FAA3D94A1F291D0F00E54E82 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		FAA3D94C1F291D2600E54E82 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		FAA3D94F1F2A3B2400E54E82 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA3D9501F2A3B2400E54E82 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 			children = (
 				FAA3D9311F28E94D00E54E82 /* AutoLayout */,
 				FAA3D9301F28E94D00E54E82 /* Products */,
+				FAA3D94E1F2A3B2300E54E82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				FAA3D93E1F28E94D00E54E82 /* Info.plist */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		FAA3D94E1F2A3B2300E54E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3D94F1F2A3B2400E54E82 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
