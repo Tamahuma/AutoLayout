@@ -21,9 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>X-Man</string>
+	<string>Say Yes</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>X-Man</string>
+	<string>Say Yes</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

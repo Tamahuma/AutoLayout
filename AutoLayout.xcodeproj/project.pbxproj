@@ -18,6 +18,7 @@
 		FAA3D94B1F291D0F00E54E82 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3D94A1F291D0F00E54E82 /* LocationViewController.swift */; };
 		FAA3D94D1F291D2600E54E82 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3D94C1F291D2600E54E82 /* InventoryViewController.swift */; };
 		FAA3D9501F2A3B2400E54E82 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA3D94F1F2A3B2400E54E82 /* CoreLocation.framework */; };
+		FAA3D9521F2A446A00E54E82 /* zombies-2258609.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA3D9511F2A446A00E54E82 /* zombies-2258609.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FAA3D94A1F291D0F00E54E82 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		FAA3D94C1F291D2600E54E82 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		FAA3D94F1F2A3B2400E54E82 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAA3D9511F2A446A00E54E82 /* zombies-2258609.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zombies-2258609.jpg"; path = "../../../../../Volumes/Zombie Image/zombies-2258609.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				FAA3D9441F28F04A00E54E82 /* SafetyViewController.swift */,
 				FAA3D94C1F291D2600E54E82 /* InventoryViewController.swift */,
 				FAA3D94A1F291D0F00E54E82 /* LocationViewController.swift */,
+				FAA3D9511F2A446A00E54E82 /* zombies-2258609.jpg */,
 				FAA3D9361F28E94D00E54E82 /* Main.storyboard */,
 				FAA3D9481F28F91400E54E82 /* 220px-Zombie_haiti_ill_artlibre_jnl.png */,
 				FAA3D9461F28F67100E54E82 /* 14w8129.jpg */,
@@ -153,6 +156,7 @@
 			files = (
 				FAA3D93D1F28E94D00E54E82 /* LaunchScreen.storyboard in Resources */,
 				FAA3D93A1F28E94D00E54E82 /* Assets.xcassets in Resources */,
+				FAA3D9521F2A446A00E54E82 /* zombies-2258609.jpg in Resources */,
 				FAA3D9471F28F67100E54E82 /* 14w8129.jpg in Resources */,
 				FAA3D9491F28F91400E54E82 /* 220px-Zombie_haiti_ill_artlibre_jnl.png in Resources */,
 				FAA3D9381F28E94D00E54E82 /* Main.storyboard in Resources */,
